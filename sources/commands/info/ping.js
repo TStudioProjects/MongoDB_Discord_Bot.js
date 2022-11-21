@@ -4,7 +4,7 @@ const ms = require("ms");
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("ping")
-        .setDescription("💻│Show API latency")
+        .setDescription("💻│Show client ping")
         .setDefaultMemberPermissions(PermissionFlagsBits.SendMessages),
 
     async execute(interaction, client) {
